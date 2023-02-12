@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Free CRM Application Test Autommation Test Suite">
+
+<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+	
+  <test name="Free CRM Application Test Cases">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+    	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
